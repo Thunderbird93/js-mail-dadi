@@ -7,14 +7,35 @@ stampa un messaggio appropriato sull’esito del controllo.
 */
 
 const utente = ["mail@mail.com", "mail@mail.it", "mail@mail.co.uk"];
-//console.log(utente);
-//console.log(utente.includes("@"))
+console.log(utente);
+console.log(utente.includes("@"))
 
 const utenteEmail = prompt ("Inserisci Email");
-//console.log(utenteEmail);
+console.log(utenteEmail);
 
-let utenteErrato = false;
-//console.log(utenteErrato);
+let utenteInserito = false;
+//console.log(utenteInserito);
+
+for (let i=0; i<utente.lenght; i++){
+    const utenteQ = utente[i];
+    console.log(utenteQ);
+    if (utenteQ === utenteEmail){
+        utenteInserito = true;
+    }
+    console.log(utenteQ, utenteInserito)
+};
+
+let message = "";
+if (utenteInserito) {
+    message = "puoi accedi";
+}   else {
+    message = "non trovato"
+};
+
+//Con Mail sembra ci sia qualcosa che non funziona
+
+
+
 
 
 /*
