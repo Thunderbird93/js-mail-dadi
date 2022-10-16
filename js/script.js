@@ -8,7 +8,13 @@ stampa un messaggio appropriato sull’esito del controllo.
 
 const utente = ["mail@mail.com", "mail@mail.it", "mail@mail.co.uk"];
 //console.log(utente);
+//console.log(utente.includes("@"))
 
+const utenteEmail = prompt ("Inserisci Email");
+//console.log(utenteEmail);
+
+let utenteErrato = false;
+//console.log(utenteErrato);
 
 
 /*
