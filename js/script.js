@@ -24,4 +24,13 @@ let x = Math.floor(Math.random() * 6) + 1;
 let y = Math.floor(Math.random() * 6) + 1;
 
 console.log(x);
+console.log(y);
+
+if (x == y) {
+    console.log("Try Again")
+} else if (x > y) {
+    console.log("Player Wins")
+} else {
+    console.log("Player Lost")
+};
 
