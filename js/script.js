@@ -6,7 +6,10 @@ controlla che sia nella lista di chi può accedere,
 stampa un messaggio appropriato sull’esito del controllo.
 */
 
-const utente = ["mail@mail.com", "mail@mail.it", "mail@mail.co.uk"]
+const utente = ["mail@mail.com", "mail@mail.it", "mail@mail.co.uk"];
+//console.log(utente);
+
+
 
 /*
 **Gioco dei dadi**
