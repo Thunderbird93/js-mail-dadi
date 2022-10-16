@@ -21,5 +21,7 @@ Se dobbiamo confrontare qualcosa che “cosa” ci serve?
 
 //Formula numero random da 1 a 6
 let x = Math.floor(Math.random() * 6) + 1;
+let y = Math.floor(Math.random() * 6) + 1;
 
 console.log(x);
+
